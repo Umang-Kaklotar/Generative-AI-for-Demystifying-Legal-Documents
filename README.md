@@ -28,7 +28,7 @@ The system is divided into two components:
 ---
 
 ## 📂 Project Structure
-
+```
 document-analyzer/
 │
 ├── backend/
@@ -41,6 +41,7 @@ document-analyzer/
 ├── index.html # Main UI
 ├── style.css # Styles
 └── script.js   # Frontend logic
+```
 ## 🛠️ Requirements
 
 - **Python 3.10+**  
