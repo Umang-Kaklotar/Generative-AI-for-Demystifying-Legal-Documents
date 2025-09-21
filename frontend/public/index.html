@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Legal Document Summarizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+    <!-- Login Box -->
+    <div id="login-box" class="card fade-in">
+        <h1 class="title">⚖️ Welcome to Legal Document Summarizer</h1>
+        <p class="subtitle">Login to continue</p>
+        <input type="text" id="username" placeholder="Username"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <button class="btn" onclick="login()">Login</button>
+        <p id="login-msg" class="error"></p>
+    </div>
+
+    <!-- Main Box -->
+    <div id="main-box" class="card fade-in" style="display:none;">
+        <h2>Upload Your Document</h2>
+        <input type="file" id="file"><br><br>
+        <button class="btn" onclick="upload()">📄 Upload & Summarize</button>
+
+        <h2>Summary</h2>
+        <div id="summary-box" class="output-box"></div>
+
+        <h2>Ask a Question</h2>
+        <input type="text" id="question" placeholder="Ask a question about your document">
+        <button class="btn" onclick="askQuestion()">❓ Ask</button>
+        <div id="answer-box" class="output-box"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
