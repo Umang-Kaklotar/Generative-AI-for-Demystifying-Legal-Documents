@@ -49,12 +49,14 @@ document-analyzer/
 - A valid **Google Gemini API key**  
 
 ### Python Dependencies (`requirements.txt`)
+```
 fastapi
 uvicorn
 python-multipart
 pdfplumber
 python-docx
 google-generativeai
+```
 
 
 ---
